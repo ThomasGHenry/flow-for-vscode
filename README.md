@@ -115,7 +115,7 @@ To use [Babel](https://babeljs.io):
 * Follow the [Babel Quick Start](https://flowtype.org/docs/running.html#babel-quick-start).
 * Install [babel-register](http://babeljs.io/docs/core-packages/babel-register/).
 * In `.babelrc`, add `"retainLines": true`.
-* In `launch.json`, add `"runtimeArgs": ["-r", "babel-register"]` to the "launch" configuration.
+* In `launch.json`, add `"args": ["-r", "@babel/register"]` to the "launch" configuration.
 
 ## About
 
